@@ -1,9 +1,0 @@
-gcc -o hotel_program hotel_management.c -DRUN_MAIN
-
-gcc -o hotel_tests hotel_tests.c hotel_management.c munit.c
-./hotel_tests
-
-------------------------------------------------------------
-Para salvar os testes:
-gcc -o hotel_tests hotel_tests.c hotel_management.c munit.c
-./hotel_tests > resultados_testes.txt
