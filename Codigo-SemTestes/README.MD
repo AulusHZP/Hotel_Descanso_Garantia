@@ -1,6 +1,6 @@
-#Compilar:
+Compilar:
 gcc -o hotel_program hotel_management.c
 
-#Executar:
+Executar:
 ./hotel_program
 
